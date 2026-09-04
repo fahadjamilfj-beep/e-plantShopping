@@ -1,13 +1,5 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { Provider } from 'react-redux'
-import store from './store'
-import App from './App.jsx'
+# e-plantShopping
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Provider store={store}>
-      <App />
-    </Provider>
-  </React.StrictMode>,
-)
+Welcome to e-plantShopping (Paradise Nursery Shopping Application)!
+
+An e-commerce React application built with Redux Toolkit allowing users to browse houseplants, add items to a cart, adjust quantities, and manage shopping totals.
